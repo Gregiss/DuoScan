@@ -267,6 +267,10 @@ href{
     background: #fff;
     top: 25px;
     margin-left: 30px;
+    background-size: cover;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
 }
 
 .center{
