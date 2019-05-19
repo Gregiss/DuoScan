@@ -1,0 +1,208 @@
+body{
+    background: #151515;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #fff;
+    font-family: arial;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+    background-color: #1d1f25;
+    border-radius: 10px;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #515151;
+    border-radius: 10px;
+  }
+
+.header{
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background: #16181de8;
+    z-index: 10000;
+    border-bottom: 2px solid #1d1f25;
+}
+
+.header .left{
+    position: relative;
+    margin: 18px 50px;
+}
+
+.header .left h1 span{
+    color: #df321b;
+}
+
+.header .left input{
+    width: 300px;
+    border: none;
+    border: 1px solid #df321b;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    top: -40px;
+    left: 200px;
+}
+
+#pdf_viewer{
+    max-width: 1024px;
+    position: relative;
+    margin: 0px auto;
+    height: 100%;
+    top: -250px;
+    border-radius: 20px;
+    z-index: 100;
+    background: #0d0d0e5c;
+    border: 10px solid #1d1f25;
+}
+
+.vendo{
+    background: #1d1f25;
+    max-width: 1080px;
+    height: 400px;
+    position: relative;
+    margin: 0px auto;
+    top: 250px;
+    border-radius: 20px;
+}
+
+.pdf{
+    position: relative;
+    top: -90px;
+    height: 700px;
+}
+
+#toolbarContainer, .findbar, .secondaryToolbar{
+    background-color: #df321b !important;
+    padding: 20px 0px 20px;
+}
+
+#loadingBar{
+    top: 20px;
+}
+
+.vendo .image{
+    width: 200px;
+    height: 270px;
+    border: 10px solid #1d1f25;
+    background-size: cover;
+    border-radius: 20px;
+    top: -30px;
+    position: relative;
+    left: 30px;
+}
+
+.vendo .title h1{
+    position: relative;
+    top: -270px;
+    left: 270px;
+}
+
+.vendo h1, p{
+    position: relative;
+    color: #ffffffb5;
+}
+
+.vendo p{
+    line-height: 30px;
+}
+
+.vendo .desc{
+    position: relative;
+    overflow-y: auto;
+    left: 270px;
+    top: -250px;
+    width: 70%;
+    height: 170px;
+    overflow-x: hidden !important;
+}
+
+#verpdf{
+    position: absolute;
+    top: -30px;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px){
+    #pdf_viewer{
+        width: 100%;
+        max-width: 100%;
+        margin:0px 0px;
+    }
+
+    .vendo{
+        width: 100%;
+        max-width: 1090%;
+        margin:0px 0px;
+        border-radius: 0px;
+    }
+
+    .vendo .desc{
+        width: calc(70% - 120px);
+        overflow-x: auto !important;
+    }
+}
+
+@media screen and (max-width: 538px){
+    .vendo .desc{
+        width: calc(70% - 200px);
+        overflow-x: auto !important;
+    }
+
+    .vendo .title h1{
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    #pdf_viewer{
+        width: 100%;
+        max-width: 100%;
+        margin:0px 0px;
+    }
+
+    .vendo{
+        width: 100%;
+        max-width: 1090%;
+        margin:0px 0px;
+    }
+
+    .vendo h1,p{
+        display: none;
+    }
+
+
+}
+
+
+#toolbarSidebar {
+    width: 100%;
+    height: 32px;
+    background-color: #424242;
+    background-image: url(images/texture.png), linear-gradient(hsla(0,0%,30%,.99), hsla(0,0%,25%,.95));
+    top: 40px;
+    position: relative;
+}
+
+#sidebarContent {
+    top: 70px;
+    bottom: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    width: 100%;
+    background-color: hsla(0,0%,0%,.1);
+}
+
+#verpdf .onde{
+    color: #fff;
+    position: relative;
+    top: 115px;
+    text-align: center;
+    font-size: 18px;
+}
