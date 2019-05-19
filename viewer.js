@@ -257,8 +257,10 @@ function webViewerLoad() {
   pdfjsWebApp.PDFViewerApplication.run(config);
 }
 if (document.readyState === 'interactive' || document.readyState === 'complete') {
+  console.log("Beep Boop Beep")
   webViewerLoad();
 } else {
+  console.log("Beep Boop Beep")
   document.addEventListener('DOMContentLoaded', webViewerLoad, true);
 }
 

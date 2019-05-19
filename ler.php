@@ -79,7 +79,7 @@
       </div>  <!-- sidebarContainer -->
 
       <div id="mainContainer">
-        <div class="findbar hidden doorHanger" id="findbar">
+        <div class="findbar hidden doorHanger" id="findbar" style="display: none;">
           <div id="findbarInputContainer">
             <input id="findInput" class="toolbarField" title="Find" placeholder="Find in document…" tabindex="91" data-l10n-id="find_input">
             <div class="splitToolbarButton">
@@ -120,7 +120,7 @@
               <span data-l10n-id="open_file_label">Open</span>
             </button>
 
-            <button id="secondaryPrint" class="secondaryToolbarButton print visibleMediumView" title="Print" tabindex="53" data-l10n-id="print">
+            <button id="secondaryPrint" class="secondaryToolbarButton print visibleMediumView" title="Print" tabindex="53" data-l10n-id="print" style="display: none;">
               <span data-l10n-id="print_label">Print</span>
             </button>
 
@@ -134,11 +134,11 @@
 
             <div class="horizontalToolbarSeparator visibleLargeView"></div>
 
-            <button id="firstPage" class="secondaryToolbarButton firstPage" title="Go to First Page" tabindex="56" data-l10n-id="first_page">
-              <span data-l10n-id="first_page_label">Go to First Page</span>
+            <button id="firstPage" class="secondaryToolbarButton firstPage" title="Ir para primeira página" tabindex="56" data-l10n-id="first_page">
+              <span data-l10n-id="first_page_label">Ir para primeira página</span>
             </button>
-            <button id="lastPage" class="secondaryToolbarButton lastPage" title="Go to Last Page" tabindex="57" data-l10n-id="last_page">
-              <span data-l10n-id="last_page_label">Go to Last Page</span>
+            <button id="lastPage" class="secondaryToolbarButton lastPage" title="Ir para ultima página" tabindex="57" data-l10n-id="last_page">
+              <span data-l10n-id="last_page_label">Ir para ultima página</span>
             </button>
 
             <div class="horizontalToolbarSeparator"></div>
@@ -199,7 +199,7 @@
                   <span data-l10n-id="toggle_sidebar_label">Toggle Sidebar</span>
                 </button>
                 <div class="toolbarButtonSpacer"></div>
-                <button id="viewFind" class="toolbarButton" title="Find in Document" tabindex="12" data-l10n-id="findbar">
+                <button id="viewFind" class="toolbarButton" title="Find in Document" tabindex="12" data-l10n-id="findbar" style="display: none;">
                   <span data-l10n-id="findbar_label">Find</span>
                 </button>
                 <div class="splitToolbarButton hiddenSmallView">
@@ -219,11 +219,11 @@
                   <span data-l10n-id="presentation_mode_label">Presentation Mode</span>
                 </button>
 
-                <button id="openFile" class="toolbarButton openFile hiddenLargeView" title="Open File" tabindex="32" data-l10n-id="open_file">
+                <button id="openFile" class="toolbarButton openFile hiddenLargeView" title="Open File" tabindex="32" data-l10n-id="open_file" style="display: none;">
                   <span data-l10n-id="open_file_label">Open</span>
                 </button>
 
-                <button id="print" class="toolbarButton print hiddenMediumView" title="Print" tabindex="33" data-l10n-id="print">
+                <button id="print" class="toolbarButton print hiddenMediumView" title="Print" tabindex="33" data-l10n-id="print" style="display: none;">
                   <span data-l10n-id="print_label">Print</span>
                 </button>
 

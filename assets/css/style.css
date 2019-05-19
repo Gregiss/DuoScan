@@ -177,8 +177,7 @@ body{
     }
 
 
-}
-
+}   
 
 #toolbarSidebar {
     width: 100%;
@@ -205,4 +204,8 @@ body{
     top: 115px;
     text-align: center;
     font-size: 18px;
+}
+
+#viewerContainer{
+    top: 90px;
 }
