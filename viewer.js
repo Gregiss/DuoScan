@@ -2137,7 +2137,7 @@ function webViewerKeyDown(evt) {
   }
   if (cmd === 0) {
     var turnPage = 0,
-        turnOnlyIfPageFit = false;
+        turnOnlyIfPageFit = true;
     switch (evt.keyCode) {
       case 38:
       case 33:

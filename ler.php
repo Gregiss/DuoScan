@@ -240,7 +240,7 @@
                   <span data-l10n-id="tools_label">Tools</span>
                 </button>
               </div>
-              <div id="toolbarViewerMiddle">
+              <div id="toolbarViewerMiddle" style="display: none;">
                 <div class="splitToolbarButton">
                   <button id="zoomOut" class="toolbarButton zoomOut" title="Zoom Out" tabindex="21" data-l10n-id="zoom_out">
                     <span data-l10n-id="zoom_out_label">Zoom Out</span>
