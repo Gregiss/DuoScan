@@ -271,6 +271,7 @@ href{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    transition: all 0.4s cubic-bezier(0, 1.24, 1, 0.14);
 }
 
 .center{
