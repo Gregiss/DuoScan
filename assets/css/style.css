@@ -1,3 +1,7 @@
+:root{
+    --red : #df321b;
+}
+
 body{
     background: #151515;
     overflow-x: hidden;
@@ -22,7 +26,7 @@ body{
     width: 100%;
     position: fixed;
     height: 70px;
-    background: #16181de8;
+    background: #161818;
     z-index: 10000;
     border-bottom: 2px solid #1d1f25;
 }
@@ -33,13 +37,13 @@ body{
 }
 
 .header .left h1 span{
-    color: #df321b;
+    color: var(--red);
 }
 
 .header .left input{
     width: 300px;
     border: none;
-    border: 1px solid #df321b;
+    border: 1px solid var(--red);
     border-radius: 20px;
     padding: 10px;
     position: relative;
@@ -80,7 +84,7 @@ body{
 }
 
 #toolbarContainer, .findbar, .secondaryToolbar{
-    background-color: #df321b !important;
+    background-color: var(--red) !important;
     padding: 20px 0px 20px;
 }
 
@@ -212,4 +216,40 @@ body{
 
 #viewerContainer{
     top: 90px;
+}
+
+click{
+    cursor: pointer;
+}
+
+.payload{
+    transition: all 2s cubic-bezier(0, 1.24, 1, 0.14) 1s;
+}
+
+.recomendado{
+    width: 100%;
+    height: 350px;
+    background: var(--red);
+    top: 70px;
+    position: relative;
+    background-image: url('/assets/img/back.png');
+    background-size: cover;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.manga_a{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background: #fff;
+    top: 25px;
+    margin-left: 30px;
+}
+
+.center{
+    margin: 0px auto;
+    width: 1024px;
+    position: relative;
 }
