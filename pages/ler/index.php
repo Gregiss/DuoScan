@@ -2,7 +2,7 @@
 <div class="header">
 
 <div class="left">
-  <click href="#" data-href="/"><h1><span>DUO</span>SCAN</h1></click>
+  <href href="#" data-href="/"><h1><span>DUO</span>SCAN</h1></href>
   <input type="text" placeholder="Procurar mangás">
 </div>
 

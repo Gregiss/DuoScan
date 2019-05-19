@@ -1,6 +1,6 @@
 const stateObj = { foo: "bar" };
 
-$("click").click(function(){
+$("href").click(function(){
     var href = $(this).data("href");
     if(href == ""){
         console.log("Return blank page");
