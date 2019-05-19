@@ -282,3 +282,15 @@ href{
     width: 1024px;
     position: relative;
 }
+
+.recomendado::-webkit-scrollbar {
+    width: 10px;
+  }
+.recomendado::-webkit-scrollbar-track {
+    background-color: #1d1f25;
+    border-radius: 0px;
+  }
+.recomendado::-webkit-scrollbar-thumb {
+    background-color: #515151;
+    border-radius: 0px;
+  }
