@@ -225,7 +225,7 @@ body{
     -webkit-overflow-scrolling: touch;
     position: absolute;
     width: 100%;
-    background-color: hsla(0,0%,0%,.1);
+    background-color: hsla(0,0%,0%,1);
 }
 
 #verpdf .onde{
