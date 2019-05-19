@@ -256,8 +256,9 @@ href{
     position: relative;
     background-image: url('/assets/img/back.png');
     background-size: cover;
-    overflow: hidden;
+    overflow-y: hidden;
     white-space: nowrap;
+    overflow-x: auto;
 }
 
 .manga_a{
