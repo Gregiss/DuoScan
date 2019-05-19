@@ -29,5 +29,6 @@
   </body>
 
   <script src="/assets/js/loading.js?version=1"></script>
+  <script src="/assets/js/pace.min.js"></script>
 
   </html>
