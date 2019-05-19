@@ -60,7 +60,7 @@ body{
 }
 
 #viewerContainer{
-    overflow: hidden !important;
+    overflow-x: hidden;
 }
 
 .vendo{
