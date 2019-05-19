@@ -55,6 +55,7 @@ body{
 .header .left{
     position: relative;
     margin: 18px 50px;
+    width: 60%;
 }
 
 .header .left h1 span{
@@ -62,7 +63,7 @@ body{
 }
 
 .header .left input{
-    width: 300px;
+    width: 40%;
     border: none;
     border: 1px solid var(--red);
     border-radius: 20px;
