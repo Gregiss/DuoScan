@@ -4,6 +4,7 @@ $salvar = 1;
 $pasta = '../images_pdf_scanner/One Punch-Man/cap1/';
 $arquivos = glob("$pasta{*.jpg,*.JPG,*.png,*.gif,*.bmp}", GLOB_BRACE);
 $pdf = new FPDF();
+$manga = 'one-punch-man';
 
 $i = 0;
 foreach($arquivos as $img){
@@ -17,7 +18,6 @@ foreach($arquivos as $img){
 }
 
 if($salvar == 1){
-$manga = 'one-punch-man';
 mkdir("../pdf/" . $manga);
 $dir = "../pdf/" . $manga . '/';
 $capitulo = 1;
